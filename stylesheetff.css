@@ -1,0 +1,183 @@
+body {
+  font-family: sans-serif;
+  margin: 0px;
+  background-color: tomato;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.compname {
+  font-size: 35px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.header ul {
+  list-style: none;
+  margin: 0px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: grey;
+}
+
+.header li {
+  float: left;
+  color: white;
+  font-size: 25px;
+}
+
+.header li img {
+  vertical-align: middle;
+}
+
+.header li a {
+  margin: 0px;
+  border: 1px solid black;
+  display: inline-block;
+  background-color: tomato;
+  text-align: center;
+  padding: 25px;
+  padding-right: 100px;
+  padding-left: 100px;
+  color: white;
+  text-decoration: none;
+  text-shadow: 1px 1px grey;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 50% 70%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: all 0.4s;
+}
+
+.header li a:hover {
+  background-color: darkred;
+  background-size: 40% 2px;
+}
+
+.f-right {
+  margin-top: 5px;
+  float: right;
+}
+
+.mainwrap {
+  margin-top: 10px;
+  margin-right: 40px;
+  margin-left: 40px;
+  height: 800px;
+}
+
+.sidebar {
+  float: left;
+  width: 37%;
+  height: 780px;
+  overflow: auto;
+  background-color: white;
+  line-height: 40px;
+  padding: 14px;
+  border-radius: 22px;
+}
+
+.sidebar h1 {
+  text-transform: uppercase;
+  font-size: 34px;
+}
+
+.sidebar h2 {
+  text-transform: uppercase;
+  font-size: 28px;
+}
+
+.sidebar p {
+  font-family: serif;
+  font-size: 16px;
+}
+
+.ingress {
+  color: grey;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.content {
+  height: 780px;
+  float: right;
+}
+
+.content img {
+  float: right;
+  border-radius: 12px;
+}
+
+.picturetext {
+  color: white;
+  font-size: 17px;
+  border-radius: 12px;
+  background-color: grey;
+  width: 50%;
+  padding: 15px;
+  line-height: 27px;
+  margin-top: 653px;
+}
+
+.footer {
+  width: 100%;
+  float: right;
+  margin-top: 20px;
+  background-color: rgba(55, 81, 126, 0.9);
+}
+
+.footer ul {
+  list-style: none;
+  margin: 0px;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.footer li {
+  color: white;
+  font-size: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.ikkelinks li {
+  float: right;
+  width: 12%;
+  box-shadow: 1px 1px 3px 0px black;
+  color: white;
+  padding: 10px;
+  border-radius: 40px;
+  margin-right: 70px;
+  text-align: center;
+  background-color: grey;
+  padding: 20px;
+  height: 110px;
+}
+
+.links li a {
+  float: left;
+  width: 16.66%;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  box-shadow: 1px 1px 3px 0px black;
+  padding: 40px;
+  height: 110px;
+  position: relative;
+  bottom: 0px;
+}
+
+.ikkelinks img {
+  vertical-align: text-top;
+}
+
+.follow {
+  font-size: 35px;
+  font-weight: bolder;
+  text-shadow: 1px 1px black;
+  position: relative;
+  bottom: -10px;
+}
